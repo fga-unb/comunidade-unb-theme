@@ -626,7 +626,7 @@ body {
 .block a:visited { color: #36A }
 
 #content .block-title, #content .login-block h2 {
-  background: #007E3A 
+  background: #007E3A; 
   border: none;
   position: absolute;
   width: 170px;
