@@ -1,0 +1,65 @@
+<script>
+  // Identificar Blocos de links com e sem título:
+  // TODO: Colocar isso no core do noosfero para qualquer bloco.
+  jQuery('.link-list-block').each(function(num, el) {
+    title = jQuery('.block-title', el).text().trim();
+    el.className += (title=='')? ' without-title' : ' with-title';
+  });
+
+  // Identificar cabeçalho e rodabe vazios:
+  // TODO: Colocar isso no core do noosfero.
+  jQuery('#profile-header, #profile-footer').each(function(num, el) {
+    if ( jQuery(el).html().trim() == '' ) el.className += ' empty';
+  });
+</script>
+
+<div id="footer-border">
+<div id="footer-box">
+<div id="footer-content">
+
+<ul id="footer-menu">
+  <li>Conheça
+    <ul>
+      <li><a href="#">Quem Somos</a></li>
+      <li><a href="#">Termos de Uso</a></li>
+      <li><a href="#">Documentação</a></li>
+      <li><a href="#">Fale Conosco</a></li>
+    </ul>
+  </li>
+    <li>Colabore
+    <ul>
+      <li><a href="#">Sugerir uma Notícia</a></li>
+      <li><a href="#">Sugerir Melhorias</a></li>
+      <li><a href="#">Reportar um Bug</a></li>
+      <li><a href="#">Desenvolvimento</a></li>
+    </ul>
+  </li>
+  <li>Compartilhe
+    <ul>
+      <li><a class="a2a_dd" href="http://www.addtoany.com/share_save">Compartilhar Isto!</a></li>
+      <li><a href="/search/events">Eventos</a></li>
+      <% if user %><li><a href="/profile/<%=user.identifier%>/invite/friends">Convide Amigos</a></li><% end %>
+      <li><a href="/search/articles">Conteúdos no Site</a></li>
+    </ul>
+  </li>
+</ul><!-- id="footer-menu" -->
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+
+<div id="copyright">
+
+  <p>Stoa.usp.br &copy; 2011 - 2012 Creative Commons - By and Share Alike</p>
+
+  <p><a href="http://usp.br" id="usp"><span>USP &mdash; Universidade de São Paulo</span></a></p>
+
+  <p id="dev-info"><%= _('This site uses <a href="http://noosfero.org/">Noosfero</a>, developed by %s and licensed under the <a href="http://www.gnu.org/licenses/agpl.html">GNU Affero General Public License</a> version 3 or any later version.') % link_to('Colivre', 'http://colivre.coop.br/') %></p>
+
+</div><!-- id="copyright" -->
+
+<a href="http://stoa.usp.br" id="stoa-big">
+  <strong>Stoa</strong>
+  <span>suas ideias em rede</span>
+</a>
+
+</div><!-- id="footer-content" -->
+</div><!-- id="footer-box" -->
+</div><!-- id="footer-border" -->
