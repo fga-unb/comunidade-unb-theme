@@ -766,6 +766,7 @@ body {
   box-shadow: 0px 0px 17px rgba(0,0,0,0.8);
   background: #DDD url(images/bg.png);
   width: 100%;
+  height: 150px;
   position: relative;
   z-index: 10;
   font-size: 11px;
@@ -862,26 +863,6 @@ body {
   text-shadow: 0 0 2px #FFF, 0 0 3px #FFF;
 }
 
-#stoa-big {
-  display: inline-block;
-  width: 200px;
-  height: 100px;
-  background: url(images/stoa.png);
-  position: relative;
-}
-
-#stoa-big strong {
-  display: none;
-}
-
-#stoa-big span {
-  position: absolute;
-  left: 76px;
-  bottom: 7px;
-  color: #358;
-  font-size: 12px;
-}
-
 #copyright {
   float: right;
   width: 220px;
@@ -903,23 +884,25 @@ body {
   opacity: 1;
 }
 
-#usp {
+#unb {
   display: inline-block;
-  width: 195px;
-  height: 23px;
-  background: url(images/usp.png);
+  width: 235px;
+  height: 20px;
+  background: url(usp.png);
   opacity: 0.7;
 }
-#usp:hover {
+#unb:hover {
   opacity: 0.9;
 }
-#usp span {
+#unb span {
   display: none;
 }
 
 #dev-info {
   font-size: 10px;
 }
+
+
 
 /**************************** Painel de Controle ****************************/
 
