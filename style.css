@@ -1,7 +1,6 @@
 @import url(../base/style.css);
 
 body {
-  background: #DDD url(images/bg.png);
 }
 
 #wrap-1 {
@@ -13,10 +12,6 @@ body {
   width: 940px;
   padding: 10px;
   margin: auto;
-  -webkit-box-shadow: 0px 0px 13px rgba(0,0,0,0.8);
-  -moz-box-shadow: 0px 0px 13px rgba(0,0,0,0.8);
-  box-shadow: 0px 0px 13px rgba(0,0,0,0.5);
-  background-color: #FFF;
 }
 
 #navigation, #site-title {
@@ -72,13 +67,8 @@ body {
 }
 
 #theme-header {
-  background: #003066
-  padding-bottom: 10px;
   height: auto;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 17px rgba(0,0,0,0.8);
-  -moz-box-shadow: 0px 0px 17px rgba(0,0,0,0.8);
-  box-shadow: 0px 0px 17px rgba(0,0,0,0.8);
   z-index: 10;
   position: fixed;
 }
@@ -95,6 +85,7 @@ body {
   color: rgba(0,0,0,0.4);
   position: relative;
   white-space: nowrap;
+  padding-top: 2px;
 }
 
 #user {
@@ -283,7 +274,7 @@ body {
 }
 
 #menu-top .menu-submenu-trigger {
-  background: #666 url(images/down-arrow-dark.png) center center no-repeat;
+  background: #036 url(images/down-arrow-light.png) center center no-repeat;
   display: none;
   height: 16px;
   top: 24px;
@@ -293,10 +284,9 @@ body {
   outline: none;
   border: none;
   -moz-border-radius: 0px 0px 7px 7px;
-  border-radius: 0px 0px 7px 7px;
 }
 #menu-top li:hover .menu-submenu-trigger:hover {
-  background: #666 url(images/down-arrow-light.png) center center no-repeat;
+  background: #036 url(images/down-arrow-light.png) center center no-repeat;
 }
 
 #menu-top li:hover .menu-submenu-trigger {
@@ -320,18 +310,15 @@ body {
 #busca input {
   line-height: 18px;
   font-size: 12px;
-  background: rgba(255,255,255,0.2);
   color: #555;
   border: none;
   width: 100px;
-  border-radius: 3px;
 }
 .webkit #busca input {
   line-height: 12px;
   height: 16px;
 }
 #busca input:hover, #busca input:focus {
-  background: rgba(255,255,255,0.5);
   color: #333;
 }
 
@@ -362,7 +349,7 @@ body {
 
 .action-account-signup #content .no-boxes h1 {
   color: #ffffff;
-  background-color: #007E3A;
+  background-color: #006633;
   font-size: 28px;
   font-weight: bold;
   padding: 5px 0px;
@@ -585,7 +572,7 @@ body {
 .block a:visited { color: #36A }
 
 #content .block-title, #content .login-block h2 {
-  background: rgb(0,130,46); 
+  background: rgb(0,58,122); 
   border: none;
   position: absolute;
   width: 170px;
@@ -664,7 +651,7 @@ body {
 
 #content .link-list-block li a.link-this-page,
 #content .link-list-block li a.link-this-page:hover {
-  background-color: #007E3A;
+  background-color: #006633;
   box-shadow: inset 2px 2px 6px #E80;
   border: none;
   width: auto;
