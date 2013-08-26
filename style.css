@@ -160,33 +160,13 @@ body {
   display: block;
 }
 
-.logged-in #user .logged-in .menu-submenu-content {
-  background: #63C6D6;
-  border-radius: 0 0 9px 9px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  padding: 0 2px 2px;
-  Xposition: absolute;
-}
-
 .logged-in #user .logged-in .menu-submenu-list {
   position: relative;
   top: -7px;
   margin-bottom: -7px;
   padding: 2px 3px;
-  border: 2px solid #FFB621;
   border-top: none;
-  -moz-border-radius: 0px 0px 7px 7px;
-  border-radius: 0px 0px 7px 7px;
-  background: #666; /* Old browsers */
-  background-image: -moz-linear-gradient(top, #666, #777);  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom,
-               color-stop( 0%,   #666 ),
-               color-stop( 100%, #777 )
-               ); /* Chrome, Safari4+ */
-  background: -webkit-linear-gradient(top, #666, #777);     /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #666, #777);          /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #666, #777);         /* IE10+ */
-  background-image: linear-gradient(to bottom, #666, #777); /* W3C */
+  background: rgb(208, 208, 208); /* Old browsers */
 }
 
 #user .logged-in .usr-menu-submenu a {
@@ -242,7 +222,7 @@ body {
   text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
 }
 #menu-top a:hover {
-  color: #FD7;
+  color: #fefefe;
 }
 
 #menu-top li li a {
@@ -277,34 +257,13 @@ body {
   bottom: auto;
 }
 
-#menu-top .menu-submenu-content {
-  background: #63C6D6;
-  padding: 0px 2px 2px 2px;
-  -moz-border-radius: 0px 0px 9px 9px;
-  border-radius: 0px 0px 9px 9px;
-  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
-}
 
 #menu-top .menu-submenu ul {
   border-top: 0px;
-  background: #777;
-  background-image: -webkit-gradient(linear, left top, left bottom,
-                     color-stop( 5%,   #666 ),
-                     color-stop( 100%, #888 )
-                     ); /* Chrome Safari old */
-  background-image: -webkit-linear-gradient(top, #666 5%, #888);
-  background-image:    -moz-linear-gradient(top, #666 5%, #888);
-  background-image:     -ms-linear-gradient(top, #666 5%, #888);
-  background-image:      -o-linear-gradient(top, #666 5%, #888);
-  background-image:         linear-gradient(top, #666 5%, #888);
-  -moz-border-radius: 0px 0px 7px 7px;
-  border-radius: 0px 0px 7px 7px;
+  background: #036; /* Chrome Safari old */
   padding: 3px;
   height: auto;
   display: block;
-  border: 2px solid #FFB621;
   position: relative;
   top: -7px;
   margin-bottom: -7px;
@@ -626,7 +585,7 @@ body {
 .block a:visited { color: #36A }
 
 #content .block-title, #content .login-block h2 {
-  background: #007E3A; 
+  background: rgb(0,130,46); 
   border: none;
   position: absolute;
   width: 170px;
@@ -925,3 +884,6 @@ body {
   box-shadow: 0 0 20px #FC0, inset 0 0 25px #F90;
 }
 
+
+#menu-top .menu-submenu-content {
+}
