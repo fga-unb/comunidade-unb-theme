@@ -473,6 +473,11 @@ body {
   color: #000;
 }
 
+#organization-profile th,
+#person-profile th {
+  color: #063;
+}
+
 /******************** Blocos ********************************************/
 
 .block a { color: #248 }
