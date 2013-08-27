@@ -535,13 +535,13 @@ body {
 
 #content .link-list-block li a:hover {
   transition: .1s;
-  background-color: #009543;
-  color: #FFF;
+  background-color: #E8EDF1;
+  color: #000;
 }
 
 #content .link-list-block li a.link-this-page,
 #content .link-list-block li a.link-this-page:hover {
-  background-color: #006633;
+  background: linear-gradient(to bottom, #3f699b 0%,#244b82 100%);
   border: none;
   width: auto;
   color: #FFF;
