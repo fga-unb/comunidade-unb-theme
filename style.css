@@ -19,6 +19,12 @@ body {
   display: none;
 }
 
+/************************** Brazil Bar ***************************/
+#barra-brasil {
+  position: fixed;
+  z-index: 11;
+}
+
 /************************** Top Bar ***************************/
 
 #top-index {

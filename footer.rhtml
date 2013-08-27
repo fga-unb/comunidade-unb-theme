@@ -52,3 +52,16 @@
 </div><!-- id="footer-content" -->
 </div><!-- id="footer-box" -->
 </div><!-- id="footer-border" -->
+
+<script id="script_brazil_bar" type="text/javascript" src="http://barra.brasil.gov.br/barra.js?cor=cinza"></script>
+<script type="text/javascript">
+  // Set Brazil's bar to fixed and reposition comunidade-unb bar
+  jQuery(document).ready(function(){
+    jQuery("#barra-brasil").css({
+      "position":"fixed",
+      "width":"100%"
+    });
+
+    jQuery("#theme-header").css({"top":"28px"});
+  });
+</script>
