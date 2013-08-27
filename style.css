@@ -400,6 +400,10 @@ body {
 }
 
 /************************** content **************************/
+#user_login,
+#user_password {
+  background-color: #FFF;
+}
 
 #content {
   margin-top: 88px; /*64px;*/
