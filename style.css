@@ -402,7 +402,7 @@ body {
 /************************** content **************************/
 
 #content {
-  margin-top: 64px;
+  margin-top: 88px; /*64px;*/
 }
 
 #main-content-wrapper-1, #main-content-wrapper-2,
