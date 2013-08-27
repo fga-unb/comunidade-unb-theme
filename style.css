@@ -500,15 +500,7 @@ body {
 }
 
 .box-2 .block-inner-2, .box-3 .block-inner-2 {
-  background: -webkit-gradient(linear, left top, left bottom,
-                 color-stop( 0%,   #DDD ),
-                 color-stop( 100%, rgba(255,255,255,0) )
-               ); /* Chrome e Safari antigos */
-  background: -webkit-linear-gradient(top, #DDD, rgba(255,255,255,0));
-  background:    -moz-linear-gradient(top, #DDD, rgba(255,255,255,0));
-  background:     -ms-linear-gradient(top, #DDD, rgba(255,255,255,0));
-  background:      -o-linear-gradient(top, #DDD, rgba(255,255,255,0));
-  background:         linear-gradient(top, #DDD, rgba(255,255,255,0));
+  background-color: #DDD;
   position: relative;
   padding: 11px 0px 0px 0px;
 }
