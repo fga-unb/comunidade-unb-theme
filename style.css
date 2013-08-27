@@ -121,7 +121,7 @@ body {
 
 .logged-in #user {
   border-right: 1px solid rgba(255,255,255,0.3);
-  background: url(images/down-arrow-dark.png) 93% 8px no-repeat;
+  background: url(images/down-arrow-light.png) 93% 8px no-repeat;
 }
 
 .logged-in #user:hover {
@@ -701,7 +701,7 @@ body {
   display: inline-block;
   width: 235px;
   height: 20px;
-  background: url(usp.png);
+  background: url(images/UnB.png);
   opacity: 0.7;
 }
 #unb:hover {
