@@ -836,6 +836,18 @@ body {
 .formfield input, .formfield textarea {
   background: none;
   border: 1px solid #999;
-  height: 19px;
-  
+  height: 19px; 
+}
+.search-field .formfield input{
+  width: 98%;
+  float: left;
+}
+.search-field input.button {
+  float: right;
+}
+#profile-editor-index h1.block-title {
+  text-align: center;
+}
+#profile-editor-index h1.block-title span{
+  color: #fff;
 }
