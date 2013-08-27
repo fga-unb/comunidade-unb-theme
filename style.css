@@ -500,7 +500,7 @@ body {
 }
 
 .box-2 .block-inner-2, .box-3 .block-inner-2 {
-  background-color: #DDD;
+  background-color: #E8EDF1;
   position: relative;
   padding: 11px 0px 0px 0px;
 }
@@ -842,4 +842,13 @@ body {
 }
 #profile-editor-index h1.block-title span{
   color: #fff;
+}
+
+#public-profile-search, #profile-search-results form, .profile-search-block form { 
+  border-radius: 0px;
+}
+
+a.button, a.button:visited, body.noosfero a.button, body.noosfero a.button:visited, input.button { 
+  border-radius: 0px !important;
+  margin: 2px 2px 0px 0px !important;
 }
