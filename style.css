@@ -8,6 +8,26 @@ body {
   width: auto;
 }
 
+#site-title span {
+  display:
+}
+
+#site-title {
+  width: 469px;
+  height: 40px;
+  left: 25px;
+  top: 100px;
+}
+
+#site-title a {
+  position: static;
+  display: block;
+  width: 469px;
+  height: 40px;
+  background: url(images/UnB_as_comp_cor_large.png);
+  background-repeat: no-repeat;
+}
+
 #wrap-2 {
   border: none;
   width: 940px;
@@ -15,7 +35,7 @@ body {
   margin: auto;
 }
 
-#navigation, #site-title {
+#navigation {
   display: none;
 }
 
