@@ -504,6 +504,10 @@ body {
   border-bottom: 2px solid #4fa0de;
 }
 
+.login-box{
+  padding: 0px 3px 3px 3px !important; 
+}
+
 #content .box-2 .block, #content .box-3 .block {
   padding-top: 25px;
 }
