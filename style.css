@@ -47,12 +47,6 @@ body {
 
 /************************** Top Bar ***************************/
 
-#top-index {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
 .top-link {
   display: block;
   position: absolute;
@@ -73,24 +67,6 @@ body {
 }
 .top-link:hover {
   background: #FFF;
-}
-
-#top-moodle { left: 5px  }
-#top-wiki   { left: 10px }
-#top-index:hover #top-moodle { top: 25px }
-#top-index:hover #top-wiki   { top: 50px }
-
-#top-logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 11;
-  background: url(images/UnB.png);
-  width: 54px;
-  height: 27px;
-}
-#top-logo span {
-  display: none;
 }
 
 #theme-header {
