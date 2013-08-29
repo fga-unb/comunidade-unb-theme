@@ -15,8 +15,8 @@ body {
 #site-title {
   width: 469px;
   height: 40px;
-  left: 25px;
-  top: 100px;
+  left: 30px;
+  top: 80px;
 }
 
 #site-title a {
@@ -24,7 +24,7 @@ body {
   display: block;
   width: 469px;
   height: 40px;
-  background: url(images/UnB_as_comp_cor_large.png);
+  background: url(images/UnB_as_bas_cor_large.png);
   background-repeat: no-repeat;
 }
 
@@ -41,7 +41,7 @@ body {
 
 /************************** Brazil Bar ***************************/
 #barra-brasil {
-  position: fixed;
+  position: relative !important;
   z-index: 11;
 }
 
@@ -73,11 +73,11 @@ body {
   height: auto;
   width: 100%;
   z-index: 10;
-  position: fixed;
+  position: absolute;
 }
 
 #top-functions-box {
-  height: 47px;
+  height: 32px;
   background: #003366;
   font-size: 14px;
 }
@@ -89,7 +89,7 @@ body {
   color: rgba(0,0,0,0.4);
   position: relative;
   white-space: nowrap;
-  padding-top: 12px;
+  padding-top: 5px;
 }
 
 #user {
@@ -402,7 +402,7 @@ body {
 }
 
 #content {
-  margin-top: 88px; /*64px;*/
+  margin-top: 200px;
 }
 
 #main-content-wrapper-1, #main-content-wrapper-2,
