@@ -438,7 +438,7 @@ body {
   border-radius: 13px;
   border: none;
   font-variant: normal;
-  font-size: 19px;
+  font-size: 22px;
   color: #063;
 
 }
@@ -465,7 +465,7 @@ body {
   font-variant: normal;
 }
 #content .blog-post .title a {
-  color: #888;
+  color: #063;
 }
 
 #article-toolbar .blog-feed-link {
