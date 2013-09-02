@@ -464,9 +464,6 @@ body {
 #content .blog-post .title {
   font-variant: normal;
 }
-#content .blog-post .title a {
-  color: #063;
-}
 
 #article-toolbar .blog-feed-link {
   -webkit-transition: 1s;
@@ -488,6 +485,7 @@ body {
 #organization-profile th,
 #person-profile th {
   color: #063;
+  font-size: 19px;
 }
 
 /******************** Blocos ********************************************/
@@ -609,11 +607,12 @@ body {
 /************** blog **************/
 
 #content .blog-post .title a {
-  color: #003366;
+  color: #063;
+  font-size: 19px;
 }
 
 #content .blog-post .title a:hover {
-  color: #248;
+  color: #096;
 }
 
 /**************************** Comments *******************************/
