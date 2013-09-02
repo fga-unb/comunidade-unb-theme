@@ -41,7 +41,7 @@ body {
   background: linear-gradient(to bottom, #3f699b 0%,#244b82 100%);
   right: 0;
   text-align: right;
-  top: 162px;
+  top: 152px;
   width: 100%;
   height: 3px;
 }
@@ -870,4 +870,40 @@ body {
 a.button, a.button:visited, body.noosfero a.button, body.noosfero a.button:visited, input.button { 
   border-radius: 0px !important;
   margin: 2px 2px 0px 0px !important;
+}
+
+#top-search{
+  float: right;
+  margin-top: 72px;
+}
+
+#top-search input {
+  background: #F3F2F1;
+  border: 1px solid #A09890;
+  padding: 7px 0px 7px 3px;
+  width: 186px;
+}
+
+#top-search div{
+  display: none;
+  color: #000;
+  background: #FFF;
+  font-size: 11px;
+  position: relative;
+  bottom: -5px;
+  left: 0px;
+}
+
+#top-search:hover div{
+  display: block;
+}
+
+#top-search div {
+  color: #000;
+  background: #FFF;
+  font-size: 11px;
+  position: relative;
+  display: none;
+  bottom: -5px;
+  left: 0px;
 }
