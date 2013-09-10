@@ -495,7 +495,7 @@ body {
 .block a:visited { color: #36A }
 
 #content .block-title, #content .login-block h2 {
-  background: linear-gradient(to bottom, #3f699b 0%,#244b82 100%); 
+  background: linear-gradient(to bottom, #3f699b 0%,#244b82 100%);
   position: absolute;
   width: 170px;
   top: -25px;
@@ -511,7 +511,7 @@ body {
 }
 
 .login-box{
-  padding: 6px !important; 
+  padding: 6px !important;
 }
 
 #content .box-2 .block, #content .box-3 .block {
@@ -630,15 +630,13 @@ body {
 #theme-footer {
   background: #e8edf1;
   width: 100%;
-  height: 150px;
-  position: relative;
+  position: absolute;
   z-index: 10;
   font-size: 11px;
-  margin: 0px;
 }
 
 #footer-border {
-  
+
 }
 
 #footer-box {
@@ -731,7 +729,7 @@ body {
 }
 
 #dev-info {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 
@@ -847,7 +845,7 @@ body {
 .formfield input, .formfield textarea {
   background: none;
   border: 1px solid #999;
-  height: 19px; 
+  height: 19px;
 }
 .search-field .formfield input{
   width: 98%;
@@ -863,11 +861,11 @@ body {
   color: #fff;
 }
 
-#public-profile-search, #profile-search-results form, .profile-search-block form { 
+#public-profile-search, #profile-search-results form, .profile-search-block form {
   border-radius: 0px;
 }
 
-a.button, a.button:visited, body.noosfero a.button, body.noosfero a.button:visited, input.button { 
+a.button, a.button:visited, body.noosfero a.button, body.noosfero a.button:visited, input.button {
   border-radius: 0px !important;
   margin: 2px 2px 0px 0px !important;
 }

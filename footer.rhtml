@@ -11,7 +11,7 @@
   jQuery('#profile-header, #profile-footer').each(function(num, el) {
     if ( jQuery(el).html().trim() == '' ) el.className += ' empty';
   });
-  
+
   // busca
   jQuery("#top-search").prependTo("#wrap-2");
 </script>
@@ -38,17 +38,18 @@
     </ul>
   </li>
 
-  
+
 </ul><!-- id="footer-menu" -->
 <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
 <!-- <p><a href="http://unb.br" id="unb"><span>Universidade de Brasília</span></a></p> -->
 
 
 <div id="copyright">
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
 
-  <p>Creative Commons - By and Share Alike</p>
-  
-  <p id="dev-info"><%= _('This site uses <a href="http://noosfero.org/">Noosfero</a>, developed by %s and licensed under the <a href="http://www.gnu.org/licenses/agpl.html">GNU Affero General Public License</a> version 3 or any later version.') % link_to('Colivre', 'http://colivre.coop.br/') %></p>
+  <p id="dev-info"><%= _('This site uses <a href="http://noosfero.org/">Noosfero</a>, developed by %s and licensed under the <a href="http://www.gnu.org/licenses/agpl.html">GNU Affero General Public License</a> version 3 or any later version.<a href="http://www.gnu.org/licenses/agpl.html"><img alt="AGPL License" style="border-width:0" src="http://www.gnu.org/graphics/agplv3-88x31.png" /></a>') % link_to('Colivre', 'http://colivre.coop.br/') %>
+  </p>
+
 
 </div><!-- id="copyright" -->
 
