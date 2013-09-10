@@ -716,9 +716,10 @@ body {
 
 #unb {
   display: inline-block;
-  width: 235px;
-  height: 20px;
-  background: url(images/UnB.png);
+  margin: 5px 0px 0px 150px;
+  width: 156px;
+  height: 40px;
+  background: url(images/UnB_as_bas_cor_large.png);
   opacity: 0.7;
 }
 #unb:hover {
