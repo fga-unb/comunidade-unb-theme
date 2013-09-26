@@ -1,4 +1,5 @@
 @import url(../base/style.css);
+@import url(./appadd.css);
 
 body {
   background: #FFF;
@@ -496,7 +497,7 @@ body {
 .block a:visited { color: #36A }
 
 #content .block-title, #content .login-block h2 {
-  background: #036
+  background: #036;
   background: linear-gradient(to bottom, #3f699b 0%,#244b82 100%);
   position: absolute;
   width: 170px;
