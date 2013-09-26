@@ -415,6 +415,7 @@ body {
 
 #content {
   margin-top: 168px;
+  min-height: 350px;
 }
 
 #main-content-wrapper-1, #main-content-wrapper-2,
